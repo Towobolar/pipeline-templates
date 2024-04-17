@@ -14,3 +14,5 @@ jobs:
     steps:
       - name: checkout pipeline-template
         uses: actions/checkout@v2
+      - name: example
+        run: echo "Hello Tipson"
